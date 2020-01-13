@@ -20,6 +20,7 @@ for (let i =0; i < 2; i++) {
         appData.expenses[a] = b;
     } else {
         alert("Введены некорректные данные");
+        i--;
     }
 
 }
