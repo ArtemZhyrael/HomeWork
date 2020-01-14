@@ -50,7 +50,7 @@ function detectDayBudget () {
 
 function optional () {
     let k = 1;
-    for (i = 0; i < 3; i++) {
+    for (let i = 0; i < 3; i++) {
         let optionalExp = +prompt("Статья необязательных расходов?");
         appData.optionalExpenses[k] = optionalExp;
         k++;
